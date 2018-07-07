@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context="com.geelani.day1_p2_simpleactivity.MainActivity">
+
+    <!--explain about dimen.xml-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/sm_margin"
+        android:hint="Enter Name"
+        android:text="" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/edit_bg"
+        android:hint="Enter Details"
+        android:gravity="center"
+        android:paddingBottom="@dimen/mx_padding"
+        android:paddingTop="@dimen/mx_padding"
+        android:text="" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/sm_margin"
+        android:background="@color/colorPrimary"
+        android:text="Submit"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/sm_margin"
+        android:id="@+id/launch_browser"
+        android:background="@color/colorPrimary"
+        android:text="Launch Browser"
+        android:textColor="#ffffff" />
+
+
+</LinearLayout>
