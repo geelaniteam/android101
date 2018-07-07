@@ -33,7 +33,7 @@
         <!--https://developers.google.com/maps/documentation/android-sdk/signup-->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCkXMGi0SrcbDI28PzPNVYv-xZd7dphhos"/>
+            android:value="Your API KEY"/>
 
     </application>
 
